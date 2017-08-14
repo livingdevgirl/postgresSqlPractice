@@ -1,4 +1,4 @@
-CREATE TABLE todos (_id serial PRIMARY KEY, title TEXT NOT NULL, details TEXT, priority INTEGER NOT NULL, created_at timestamp [ (p) ] with time NOT NULL, completed_at timestamp [(p)] with time);
+CREATE TABLE todos (id serial PRIMARY KEY, title TEXT NOT NULL, details TEXT, priority INTEGER NOT NULL, created_at timestamp [ (p) ] with time NOT NULL, completed_at timestamp [(p)] with time);
 
 INSERT INTO todos(title, details, priority, created_at, completed_at) VALUES ('name', 'blach', 8, 06-01-87 11:11, 12-12-12 11:11);
 
